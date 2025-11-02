@@ -1,0 +1,27 @@
+# Gabriele Selli Nunes — Data Portfolio (EN/PT)
+
+
+This repository hosts my bilingual (EN/PT) portfolio built for GitHub Pages. It showcases direct links to my public data projects (no subpages). Focus areas include causal inference (DiD, RDD), NLP, and public policy evaluation.
+
+
+Este repositório contém meu portfólio bilíngue (EN/PT) para GitHub Pages. Ele apresenta links diretos para meus projetos públicos (sem páginas internas). Áreas de foco: inferência causal (DiD, RDD), PLN e avaliação de políticas públicas.
+
+
+## Live site
+Enable GitHub Pages in **Settings → Pages**: choose **Deploy from branch** (main, root). Your site will be available at `https://<username>.github.io/<repo>`.
+
+
+## Structure
+- `index.html` – one‑page site with EN/PT toggle and project cards linking straight to GitHub repos.
+- `assets/style.css` – minimal styling.
+- (Optional) `assets/avatar.jpg` and `assets/cv.pdf`.
+
+
+## Customize
+1. Replace links (GitHub, LinkedIn, CV, email) in `index.html`.
+2. Swap `assets/avatar.jpg` with your photo (optional).
+3. Update card summaries (one‑liners) with key KPIs if desired.
+
+
+## License
+Content © Gabriele Selli Nunes. Site code is MIT‑licensed.

@@ -1,0 +1,12 @@
+```yml
+# Disable Jekyll theme; serve raw HTML/CSS
+markdown: kramdown
+kramdown:
+  input: GFM
+collections: []
+plugins: []
+# Prevent Jekyll from ignoring folders that start with underscores
+include:
+  - assets
+  - pages
+```

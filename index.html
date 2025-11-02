@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Gabriele Selli Nunes · Data Analyst & Policy Researcher</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+  <meta name="description" content="Portfolio – Data analysis, causal inference, NLP, public policy evaluation.">
+</head>
+<body>
+<header>
+  <img src="assets/avatar.jpg" alt="Profile photo of Gabriele" onerror="this.style.display='none'"/>
+  <div>
+    <h1>Gabriele Selli Nunes</h1>
+    <div class="small" data-i18n="tagline">
+      <span class="en">Data Analyst · Policy Evaluation · Causal Inference · NLP</span>
+      <span class="pt hidden">Analista de Dados · Avaliação de Políticas · Inferência Causal · PLN</span>
+    </div>
+    <nav class="badges" aria-label="Primary">
+      <a href="https://github.com/gabselli" target="_blank" rel="noopener">GitHub</a>
+      · <a href="https://www.linkedin.com/in/gabselli" target="_blank" rel="noopener">LinkedIn</a>
+      · <a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a>
+      · <a href="mailto:gabsellinunes@gmail.com">Contact</a>
+    </nav>
+  </div>
+  <div class="lang" aria-label="Language toggle">
+    <button id="btn-en" type="button">EN</button><button id="btn-pt" type="button">PT</button>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2 class="en">About</h2>
+    <h2 class="pt hidden">Sobre</h2>
+    <p class="en">Data analyst with experience in consulting and academic projects across public policy and private sector contexts. I specialize in causal inference (DiD, RDD), NLP for text analytics, and end-to-end workflows – from scraping/cleaning to modeling and clear communication. Currently finishing a Master’s at FGV-EBAPE with research on Brazil’s cultural funding policies.</p>
+    <p class="pt hidden">Analista de dados com experiência em consultoria e projetos acadêmicos aplicados em políticas públicas e setor privado. Atuo com inferência causal (DiD, RDD), PLN para análise de textos e fluxos ponta a ponta — da coleta/limpeza à modelagem e comunicação clara. Concluindo o mestrado na FGV-EBAPE com pesquisa sobre políticas federais de cultura no Brasil.</p>
+  </section>
+
+  <section>
+    <h2 class="en">Featured Projects</h2>
+    <h2 class="pt hidden">Projetos em Destaque</h2>
+
+    <!-- Mantenha TODOS os cards dentro deste grid -->
+    <div class="card-grid">
+
+      <!-- Project 1 -->
+      <article class="card">
+        <h3>Media Bias BR (NLP)</h3>
+        <div class="hstack">
+          <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">Clustering</span>
+        </div>
+        <p class="en">Scraped ~600 news articles; measured sentiment/subjectivity toward candidates.</p>
+        <p class="pt hidden">Raspagem de ~600 notícias; sentimento/subjetividade por candidato.</p>
+        <div class="cta">
+          <a class="button" href="https://github.com/gabselli/medias-bias" target="_blank" rel="noopener" aria-label="Open Media Bias repository">Repo</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card">
+        <h3>Bibliometrics: Green Supply Chain × Digital</h3>
+        <div class="hstack"><span class="tag">R</span><span class="tag">Bibliometrix</span><span class="tag">Text Mining</span></div>
+        <p class="en">State-of-the-art mapping with Bibliometrix; thematic clusters (economic, socio-environmental, internal-external).</p>
+        <p class="pt hidden">Mapeamento do estado da arte; clusters temáticos (econômico, socioambiental, interno-externo).</p>
+        <div class="cta">
+          <a class="button" href="https://github.com/gabselli/systematic-review" target="_blank" rel="noopener" aria-label="Open Systematic Review repository">Repo</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card">
+        <h3>Lei Rouanet: Cultural Funding Analysis</h3>
+        <div class="hstack"><span class="tag">Python</span><span class="tag">API</span><span class="tag">Regression</span></div>
+        <p class="en">SALIC + IBGE integration; project counts × city traits; evidence of size/income disparities and distance effects.</p>
+        <p class="pt hidden">Integração SALIC + IBGE; projetos × características municipais; desigualdades por porte/renda e efeitos de distância.</p>
+        <div class="cta">
+          <a class="button" href="https://github.com/gabselli/regression-salic-analysis" target="_blank" rel="noopener" aria-label="Open SALIC regression repository">Repo</a>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="card">
+        <h3>PNAB: Municipal Determinants of Federal Cultural Funds</h3>
+        <div class="hstack"><span class="tag">R</span><span class="tag">CEM</span><span class="tag">Policy</span></div>
+        <p class="en">Master's dissertation project on determinants of municipal access/implementation of federal cultural funds (PNAB). Integrates TSE, IBGE/MUNIC, FINBRA, SICONFI, ideology datasets; builds capacity indices; uses CEM + OLS/bootstrapping.</p>
+        <p class="pt hidden">Projeto de dissertação sobre determinantes do acesso/implementação municipal a fundos culturais federais (PNAB). Integra TSE, IBGE/MUNIC, FINBRA, SICONFI, ideologia; constrói índices de capacidade; usa CEM + OLS/bootstrapping.</p>
+        <div class="cta">
+          <a class="button" href="https://github.com/gabselli/matching-and-regression-aldir-blanc-analysis" target="_blank" rel="noopener" aria-label="Open PNAB determinants repository">Repo</a>
+        </div>
+      </article>
+
+    </div>
+    <!-- fim do grid -->
+  </section>
+
+  <section>
+    <h2 class="en">Skills & Tools</h2>
+    <h2 class="pt hidden">Habilidades & Ferramentas</h2>
+    <p class="en">Python (pandas, numpy, scikit-learn), R (fixest, Bibliometrix), NLP (TextBlob, tidytext), Causal inference (DiD, RDD), Web scraping (newspaper3k), Data viz (ggplot2, matplotlib), Reproducibility (Git/GitHub, RMarkdown, notebooks).</p>
+    <p class="pt hidden">Python (pandas, numpy, scikit-learn), R (fixest, Bibliometrix), PLN (TextBlob, tidytext), Inferência causal (DiD, RDD), Web scraping (newspaper3k), Visualização (ggplot2, matplotlib), Reprodutibilidade (Git/GitHub, RMarkdown, notebooks).</p>
+  </section>
+</main>
+
+<footer class="center small">© <span id="year"></span> Gabriele Selli Nunes — EN/PT. Built for GitHub Pages.</footer>
+
+<script>
+  const en = document.querySelectorAll('.en');
+  const pt = document.querySelectorAll('.pt');
+  document.getElementById('btn-en').onclick = () => { en.forEach(x=>x.classList.remove('hidden')); pt.forEach(x=>x.classList.add('hidden')); };
+  document.getElementById('btn-pt').onclick = () => { pt.forEach(x=>x.classList.remove('hidden')); en.forEach(x=>x.classList.add('hidden')); };
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
